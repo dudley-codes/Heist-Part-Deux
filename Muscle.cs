@@ -18,6 +18,14 @@ namespace HeistPartDeux
       {
         Console.WriteLine($"{Name} just kicked the security guard's ass!");
       }
+
+    }
+    public void AddMuscle(string name, int skillLevel, int percent)
+    {
+      Name = name;
+      Skill = "Muscle (disarms guards)";
+      SkillLevel = skillLevel;
+      PercentageCut = percent;
     }
   }
 }

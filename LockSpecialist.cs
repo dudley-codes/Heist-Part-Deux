@@ -19,5 +19,13 @@ namespace HeistPartDeux
         Console.WriteLine($"{Name} just cracked the safe!");
       }
     }
+
+    public void AddLockSpecialist(string name, int skillLevel, int percent)
+    {
+      Name = name;
+      Skill = "Lock Specialist (cracks vault)";
+      SkillLevel = skillLevel;
+      PercentageCut = percent;
+    }
   }
 }
